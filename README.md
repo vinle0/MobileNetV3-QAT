@@ -1,4 +1,4 @@
-# MobileNetV3 with QAT
+# Quantization-Aware Training for Mobile Deployment: Deploying MobileNetV3 on Android
 
 Using the PyTorch Lightning, I applied [PyTorch 2 Export Quantization Aware Training](https://docs.pytorch.org/ao/main/tutorials_source/pt2e_quant_qat.html#) on the MobileNetV3 and achieved a 4x reduction of memory footprint from 16.18 MB of the float model to 4.2 MB quantized. Quantized model is then exported via [ExecuTorch](https://docs.pytorch.org/executorch/stable/getting-started.html) via the [XNNPACK](https://docs.pytorch.org/executorch/stable/backends-xnnpack.html#target-requirements), ideal for Android and consequently mobile ARM processors.
 
