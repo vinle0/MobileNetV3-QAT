@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageClassificationQAT</string>
+    <string name="detecting">Detecting...</string>
+</resources>

@@ -1,0 +1,20 @@
+# ===================================================================
+# Requirements for a stable ONNX -> TensorFlow/TFLite conversion
+# This environment uses the modern `onnx2tf` toolchain.
+#
+# To use:
+# 1. Create a new Python virtual environment.
+# 2. Run: pip install -r requirements.txt
+# ===================================================================
+
+lightning
+lightning[extra]
+colorlog
+matplotlib
+executorch==0.6.0
+
+torch
+torchvision
+torchaudio
+torchmetrics
+datasets[vision]
